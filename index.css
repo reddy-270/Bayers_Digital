@@ -1,0 +1,142 @@
+body
+{
+    background-color: #cbeccb;
+    color: rgb(5, 5, 75);
+    background-image: url("lush_green\ .jpeg");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #a0caa0; */
+}
+
+.nav-link
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    color: rgb(5, 5, 75);
+}
+
+.nav-link:hover
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    color: rgb(5, 5, 75);
+    border: 2px solid rgb(5, 5, 75);
+    border-radius: 25px;
+}
+
+.top
+{
+    text-align: right;
+    margin-top: 10%;
+    padding-right: 90px;
+    font-size: 2rem;
+}
+.KYP-head
+{
+    padding-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#Details
+{
+    margin-top: 29%;
+}
+
+.jumbotron
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jumbo
+{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 65%;
+    padding: 50px;
+    border-radius: 30px;
+    background: #cbeccb;
+    box-shadow:  8px 8px 16px #adc9ad,
+             -8px -8px 16px #e9ffe9;
+}
+
+.KYP_code
+{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+#kyp-entry
+{
+    height: 50px;
+    margin: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid #cbeccb;
+    border-radius: 10px;
+    background: #cbeccb;
+    box-shadow: inset 5px 5px 10px #adc9ad,
+            inset -5px -5px 10px #e9ffe9;
+}
+
+.kyp-submission
+{
+    font-size: 1.2rem;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #cbeccb;
+    border-radius: 5px;
+    background: #cbeccb; 
+    box-shadow:  5px 5px 10px #a8c4a8,
+              -5px -5px 10px #eeffee;
+}
+.kyp-submission a
+{
+    text-decoration: none;
+}
+
+.footer_contact_left
+{
+    /* float: left; */
+
+}
+.left_inside
+{
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 10%;
+}
+
+.DLimage
+{
+    border-radius: 50%;
+}
+
+.icons
+{
+    display: flex;
+}
+
+.icons a
+{
+    margin: 15px;
+}
